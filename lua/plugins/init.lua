@@ -34,6 +34,7 @@ return {
 				"prettier",
 				"biome",
 				"deno",
+        "typescript-language-server",
 				-- other stuff
 				"gopls",
 				"gleam",
