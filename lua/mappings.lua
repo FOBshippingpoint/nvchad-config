@@ -11,3 +11,8 @@ map("n", "<leader>fm", function()
 end, { desc = "File Format with conform" })
 
 map("i", "jk", "<ESC>", { desc = "Escape insert mode" })
+
+
+map("n", "<leader>tt", function()
+  require("base46").toggle_transparency()
+end, { desc = "File Format with conform" })

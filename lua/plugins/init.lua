@@ -34,13 +34,14 @@ return {
 				"prettier",
 				"biome",
 				"deno",
-        "typescript-language-server",
+				"typescript-language-server",
 				-- other stuff
 				"gopls",
 				"gleam",
 				-- python stuff
 				"ruff",
 				"ruff_lsp",
+				"pyright",
 			},
 		},
 	},
