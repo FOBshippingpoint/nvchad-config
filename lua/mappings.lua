@@ -4,7 +4,7 @@ require "nvchad.mappings"
 
 local map = vim.keymap.set
 
-map("n", ";", ":", { desc = "CMD enter command mode" })
+-- map("n", ";", ":", { desc = "CMD enter command mode" })
 
 map("n", "<leader>fm", function()
   require("conform").format()
@@ -15,4 +15,4 @@ map("i", "jk", "<ESC>", { desc = "Escape insert mode" })
 
 map("n", "<leader>tt", function()
   require("base46").toggle_transparency()
-end, { desc = "File Format with conform" })
+end, { desc = "Toggle transparency" })
